@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: aliceblue;
+            margin: 0px;
+
+        }
+        header {
+            padding-left: 10px;
+            background-color: cadetblue;
+            margin: 10px;
+        }
+        nav {
+            background-color: cyan;
+            padding: 3px;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.473);
+        }
+        nav > a {
+            text-decoration: none;
+            color: darksalmon;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        main {
+            background-color: antiquewhite;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 40px 0px; 
+            box-shadow: 4px 4px 9px 0px black;
+        }
+        article{
+            background-color: blueviolet;
+            padding: 5px;
+        }
+        article > aside {
+            background-color: brown;
+        }
+        
+        footer {
+            background-color: aquamarine;
+            color: wheat;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: rgb(35, 129, 211);
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <article>
+                <aside><h2>Noticia sobre mim</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos corporis eligendi, esse officiis repellendus itaque cupiditate cum natus error, adipisci saepe suscipit explicabo, nisi illum expedita aliquam est ex nobis.</p>
+            </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Gonçalo</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
