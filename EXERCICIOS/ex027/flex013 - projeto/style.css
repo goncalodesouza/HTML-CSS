@@ -16,17 +16,41 @@ header {
   background-color: rgb(30, 30, 30);
   color: white;
   padding: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 header h1 {
   border: 1px solid rgb(180, 180, 180);
+  flex: 0 0 200px;
 }
 header nav {
+ display: flex;
+ flex-flow: row wrap;
+ justify-content: flex-start; 
+}
+header nav a {
+  background-color: rgb(30, 30, 30);
   border: 1px solid rgb(180, 180, 180);
+  color: rgb(180, 180, 180);
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+  transition: 0.3s;
+}
+header nav a:hover {
+  background-color: rgb(180, 180, 180);
+  color: rgb(30, 30, 30);
+  border-color: rgb(30, 30, 30);
 }
 main {
   background-color: rgb(180, 180, 180);
-  margin: 10px;
-  padding: 10px;
+  max-width: 70vw;
+  margin: auto;
+  padding: 20px;
   border-radius: 10px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.35);
 }
